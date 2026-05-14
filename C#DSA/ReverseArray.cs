@@ -2,7 +2,7 @@ int[] arr = [1,7,4,84,9,4,7,0,4];
 
 int[] Reverser(int[] arr)
 {
-    for(int i = 0; i <= arr.Length/2; i++)
+    for(int i = 0; i < arr.Length/2; i++)
     {
         int last = arr.Length-1-i;
         if (i < last)
