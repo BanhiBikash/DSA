@@ -5,6 +5,7 @@ List<int[]>? Pairs = new List<int[]>();
 int start = 0;
 int last = arr.Count()-1;
 
+//can only be done in sorted arrays if not not sorted do Array.sort(arr)
 while (start < last)
 {
     int sum = arr[start]+arr[last];
