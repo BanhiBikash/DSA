@@ -10,7 +10,7 @@ foreach(var word in words)
     //sort the char array
     Array.Sort(arr);
 
-    //conver the sorted char array into string
+    //convert the sorted char array into string
     string sortedWord = new string(arr);
     if (soartedWords.ContainsKey(sortedWord))
     {
